@@ -17,6 +17,9 @@ importers:
       '@remix-run/serve':
         specifier: ^2.13.1
         version: 2.13.1(typescript@5.6.3)
+      blocks.css:
+        specifier: ^0.4.1
+        version: 0.4.1
       isbot:
         specifier: ^4.1.0
         version: 4.4.0
@@ -1029,6 +1032,9 @@ packages:
 
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
+
+  blocks.css@0.4.1:
+    resolution: {integrity: sha512-IK/EjUDlzJM+coKO3wm1O4yy9fZoD1ieQeoru9UWpc1NI1vo2QALNaECxU0hALLxFuzdKBC2ht7uwbo2/UhSKg==}
 
   body-parser@1.20.3:
     resolution: {integrity: sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==}
@@ -4387,6 +4393,8 @@ snapshots:
       buffer: 5.7.1
       inherits: 2.0.4
       readable-stream: 3.6.2
+
+  blocks.css@0.4.1: {}
 
   body-parser@1.20.3:
     dependencies:
