@@ -1,5 +1,12 @@
-import { Links, Meta } from '@remix-run/react';
-import './app.css';
+import {
+  Links,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+} from '@remix-run/react';
+import "./app.css";
+
 
 export default function App() {
   return (
@@ -11,11 +18,9 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <button className="block">This is a button!!</button>
-        <button className="block round accent">This is a button!!</button>
-        <div className="block fixed">
-          <h2>This is a card yaayy!!</h2>
-        </div>
+        <Outlet />
+        <ScrollRestoration />
+        <Scripts />
       </body>
     </html>
   );
